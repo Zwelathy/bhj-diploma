@@ -43,8 +43,8 @@
    * Закрывает текущее окно (Modal.close())
    * */
   onClose(e) {
-    e.preventDefault(); 
-    this.close();
+    //e.preventDefault(); 
+    e.onClick = this.close();
   }
   /**
    * Открывает окно: устанавливает CSS-свойство display
@@ -57,6 +57,6 @@
    * Закрывает окно: удаляет CSS-свойство display
    * */
   close(){
-    this.element.style.removeProperty('display');
+    this.element.removeAttribute('style');
   }
 }
