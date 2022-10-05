@@ -5,6 +5,12 @@
       "email": "demo@demo",
       "password": "demo",
       "id": "1"
+    },
+    {
+      "name": "Testyun",
+      "email": "testyun@mail",
+      "password": "123456",
+      "id": "4fjhh8f8l8uok6wy"
     }
   ],
   "accounts": [
@@ -22,18 +28,19 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "Итоги 4719 года",
+      "user_id": "1",
+      "id": "4fjhh8f8l8uoieya"
+    },
+    {
+      "name": "BakaMitae",
+      "user_id": "4fjhh8f8l8uok6wy",
+      "id": "4fjhh8f8l8uol8xn"
     }
   ],
   "transactions": [
-    {
-      "account_id": "1",
-      "created_at": "2019-09-15 10:24:02",
-      "id": "1",
-      "name": "Кредит",
-      "sum": 5000,
-      "type": "expense",
-      "user_id": "1"
-    },
     {
       "account_id": "1",
       "created_at": "2019-09-17 15:53:02",
@@ -159,6 +166,51 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "4fjhh8f8l8uoi6b7",
+      "type": "income",
+      "name": "Итоги 4719 года",
+      "sum": 666,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-10-04T20:54:08.754Z"
+    },
+    {
+      "id": "4fjhh8f8l8uoivhh",
+      "type": "income",
+      "name": "Самолёт",
+      "sum": 100500,
+      "account_id": "4fjhh8f8l8uoieya",
+      "user_id": "1",
+      "created_at": "2022-10-04T20:54:41.381Z"
+    },
+    {
+      "id": "4fjhh8f8l8uojbb2",
+      "type": "expense",
+      "name": "Самокат",
+      "sum": 15,
+      "account_id": "4fjhh8f8l8uoieya",
+      "user_id": "1",
+      "created_at": "2022-10-04T20:55:01.886Z"
+    },
+    {
+      "id": "4fjhh8f8l8uom6ty",
+      "type": "expense",
+      "name": "Долги",
+      "sum": 100500,
+      "account_id": "4fjhh8f8l8uol8xn",
+      "user_id": "4fjhh8f8l8uok6wy",
+      "created_at": "2022-10-04T20:57:16.054Z"
+    },
+    {
+      "id": "4fjhh8f8l8uomlj1",
+      "type": "income",
+      "name": "Грабёж",
+      "sum": 100600,
+      "account_id": "4fjhh8f8l8uol8xn",
+      "user_id": "4fjhh8f8l8uok6wy",
+      "created_at": "2022-10-04T20:57:35.101Z"
     }
   ]
 }

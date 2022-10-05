@@ -39,13 +39,8 @@
    * }
    * */
   getData() {
-    const obj = {};
     const formData = new FormData(this.element);
-    const dataEntries = formData.entries();
-    for (let [key, value] of dataEntries) {
-      obj[key] = value;
-    }
-    return obj;
+    return Object.fromEntries(formData.entries());
   }
 
   onSubmit(options){
